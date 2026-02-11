@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Musician Semantic Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>🎵 Musician Semantic Search</h2>
+      <div class="subtitle">Linked Open Data • DBpedia • Semantic Web</div>
+
+      <div class="search-box">
+        <input type="text" id="artistInput" placeholder="Masukkan nama band . . ." />
+        <button onclick="searchArtist()">Cari</button>
+      </div>
+
+      <div id="result" class="result-card"></div>
+
+      <div class="footer-note">Data diambil secara real-time dari DBpedia (Semantic Web)</div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

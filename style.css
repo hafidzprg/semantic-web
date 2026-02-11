@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.container {
+  background: grey;
+  width: 800px;
+  max-width: 95%;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 14px 30px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.result-card {
+  background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+  border-radius: 18px;
+  padding: 30px;
+  display: none;
+}
+
+.band-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.band-header img {
+  width: 180px;
+  border-radius: 12px;
+}
+
+.band-name {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.info-row {
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.label {
+  color: #ff8a80;
+  font-weight: 500;
+}
+
+.footer-note {
+  margin-top: 25px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+}
