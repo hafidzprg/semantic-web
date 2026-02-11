@@ -74,7 +74,7 @@ Ontologi utama yang digunakan:
 
 ### 🎵 Pencarian Band: Linkin Park
 
-![Linkin Park](/3.png)
+![Linkin Park](3.png)
 
 
 
