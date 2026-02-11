@@ -62,19 +62,19 @@ Ontologi utama yang digunakan:
 
 ### A. Tampilan Awal (Landing Page)
 
-![Landing Page]1.png)
-
----
-
-### 🎵 Pencarian Band: Queen
-
-![Queen](2.png)
+![FrontEnd](1.png)
 
 ---
 
 ### 🎵 Pencarian Band: Linkin Park
 
-![Linkin Park](3.png)
+![Linkin Park](2.png)
+
+---
+
+### 🎵 Pencarian Band: Queen
+
+![Queen](3.png)
 
 
 
